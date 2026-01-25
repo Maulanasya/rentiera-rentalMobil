@@ -21,7 +21,8 @@ include '../config/koneksi.php';
             <div class="col-md-4">
                 <div class="card border-0 shadow-sm rounded-4 p-3 bg-white border-start border-warning border-4">
                     <div class="d-flex align-items-center gap-3">
-                        <div class="bg-warning bg-opacity-10 p-3 rounded-circle">
+                        <div class="bg-warning p-3 rounded-circle d-flex align-items-center justify-content-center flex-shrink-0"
+                            style="width: 55px; height: 55px;">
                             <i class="bi bi-cash text-light fs-3"></i>
                         </div>
                         <div>

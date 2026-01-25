@@ -23,8 +23,7 @@
                     Mengenal Lebih Dekat <span class="text-warning">Rentiera</span>
                 </h1>
                 <p class="lead mb-0">
-                    Dedikasi kami adalah memberikan layanan transportasi terbaik, aman, dan berkelas di jantung Kota
-                    Bandung.
+                    Dedikasi kami adalah memberikan layanan transportasi terbaik, aman, dan berkelas di Kota Bandung.
                 </p>
             </div>
         </div>

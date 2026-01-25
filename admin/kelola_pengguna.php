@@ -25,9 +25,11 @@ include '../config/koneksi.php';
                         <div>
                             <small class="text-muted d-block mb-1">Total Pengguna</small>
                             <h3 class="fw-bold mb-0">
-                                <?php echo mysqli_num_rows(mysqli_query($koneksi, "SELECT * FROM tb_user")); ?></h3>
+                                <?php echo mysqli_num_rows(mysqli_query($koneksi, "SELECT * FROM tb_user")); ?>
+                            </h3>
                         </div>
-                        <div class="bg-warning bg-opacity-10 p-3 rounded-circle">
+                        <div class="bg-warning p-3 rounded-circle d-flex align-items-center justify-content-center flex-shrink-0"
+                            style="width: 55px; height: 55px;">
                             <i class="bi bi-people-fill text-light fs-4"></i>
                         </div>
                     </div>
@@ -42,7 +44,8 @@ include '../config/koneksi.php';
                                 <?php echo mysqli_num_rows(mysqli_query($koneksi, "SELECT * FROM tb_user WHERE role='admin'")); ?>
                             </h3>
                         </div>
-                        <div class="bg-danger bg-opacity-10 p-3 rounded-circle">
+                        <div class="bg-danger p-3 rounded-circle d-flex align-items-center justify-content-center flex-shrink-0"
+                            style="width: 55px; height: 55px;">
                             <i class="bi bi-shield-lock-fill text-light fs-4"></i>
                         </div>
                     </div>
@@ -57,7 +60,8 @@ include '../config/koneksi.php';
                                 <?php echo mysqli_num_rows(mysqli_query($koneksi, "SELECT * FROM tb_user WHERE role='penyewa'")); ?>
                             </h3>
                         </div>
-                        <div class="bg-info bg-opacity-10 p-3 rounded-circle">
+                        <div class="bg-info p-3 rounded-circle d-flex align-items-center justify-content-center flex-shrink-0"
+                            style="width: 55px; height: 55px;">
                             <i class="bi bi-person-check-fill text-light fs-4"></i>
                         </div>
                     </div>

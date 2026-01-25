@@ -29,19 +29,21 @@
             <div class="col-md-6" data-aos="fade-right">
                 <div
                     class="card border-0 shadow-sm rounded-4 p-3 d-flex flex-row align-items-center gap-3 border-start border-primary border-4">
-                    <div class="bg-primary bg-opacity-10 p-3 rounded-circle text-primary"><i
-                            class="bi bi-car-front fs-3 text-light"></i></div>
+                    <div class="bg-primary p-3 rounded-circle text-white d-flex align-items-center justify-content-center flex-shrink-0"
+                        style="width: 60px; height: 60px;">
+                        <i class="bi bi-car-front fs-3"></i>
+                    </div>
                     <div>
-                        <h4 class="fw-bold mb-0"><?php echo $total_unit; ?></h4><small class="text-muted">Total
-                            Unit</small>
+                        <h4 class="fw-bold mb-0"><?php echo $total_unit; ?></h4>
+                        <small class="text-muted">Total Unit</small>
                     </div>
                 </div>
             </div>
             <div class="col-md-6" data-aos="fade-left">
                 <div
                     class="card border-0 shadow-sm rounded-4 p-3 d-flex flex-row align-items-center gap-3 border-start border-success border-4">
-                    <div class="bg-success bg-opacity-10 p-3 rounded-circle text-success"><i
-                            class="bi bi-check-circle fs-3 text-light"></i></div>
+                    <div class="bg-success p-3 rounded-circle text-white d-flex align-items-center justify-content-center flex-shrink-0"
+                        style="width: 60px; height: 60px;"><i class="bi bi-check-circle fs-3 text-light"></i></div>
                     <div>
                         <h4 class="fw-bold mb-0"><?php echo $tersedia; ?></h4><small class="text-muted">Unit
                             Tersedia</small>

@@ -1,9 +1,12 @@
 <?php
-// Wajib ada ini di baris paling atas agar fungsi database aktif
-include 'config/koneksi.php'; 
+// PERBAIKAN 1: Logika cerdas mencari file koneksi agar tidak error di HP
+if (file_exists('config/koneksi.php')) {
+    include 'config/koneksi.php'; // Jika dipanggil dari index utama
+} else {
+    include '../config/koneksi.php'; // Jika dipanggil dari folder pages/
+}
 
 if (isset($_POST['kirim_pesan'])) {
-    // Logika pop-up sukses
     echo "<script src='https://cdn.jsdelivr.net/npm/sweetalert2@11'></script>";
     echo "<script>
         document.addEventListener('DOMContentLoaded', function() {

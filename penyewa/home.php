@@ -106,11 +106,11 @@
                 <div class="card feature-card border-0 shadow-sm h-100 p-4 text-center rounded-4">
                     <div class="card-body p-0">
                         <div class="icon-box text-primary">
-                            <i class="bi bi-person-badge fs-2"></i>
+                            <i class="bi bi-key-fill fs-2"></i>
                         </div>
-                        <h5 class="fw-bold mb-3">Sopir Profesional</h5>
-                        <p class="text-muted small">Pengemudi berpengalaman, ramah, dan hapal rute untuk kenyamanan
-                            perjalanan.</p>
+                        <h5 class="fw-bold mb-3">Lepas Kunci</h5>
+                        <p class="text-muted small">Nikmati kebebasan berkendara sendiri dengan layanan lepas kunci yang
+                            mudah dan tanpa ribet.</p>
                     </div>
                 </div>
             </div>

@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jan 23, 2026 at 01:40 PM
+-- Generation Time: Jan 24, 2026 at 01:05 PM
 -- Server version: 10.4.32-MariaDB
 -- PHP Version: 8.2.12
 
@@ -116,9 +116,9 @@ CREATE TABLE `tb_testimoni` (
 --
 
 INSERT INTO `tb_testimoni` (`id_testimoni`, `nama`, `pekerjaan`, `gambar`, `rating`, `pesan`) VALUES
-(1, 'Soren Thorne', 'Pengusaha', 'user1.jpg', 5, 'Unit sangat terawat, bersih, dan wangi! Proses lepas kuncinya cepat dan sangat memudahkan. Rekomendasi terbaik!.'),
-(2, 'Julian Vane', 'Traveler', 'user2.jpg', 5, 'Proses sewa gampang banget, gak ribet. Harga juga bersaing dibanding rental lain. Pasti bakal sewa lagi kalau ke Bandung.'),
-(3, 'Silas Archer', 'Designer', 'user3.jpg', 4, 'Unit mobil terawat dengan baik. Admin fast response saat dihubungi malam hari. Terima kasih Rentiera!');
+(1, 'Diki Wahyu', 'Pengusaha', 'user1.jpg', 5, 'Unit sangat terawat, bersih, dan wangi! Proses lepas kuncinya cepat dan sangat memudahkan. Rekomendasi terbaik!.'),
+(2, 'Haura Shafa', 'Traveler', 'user2.jpg', 5, 'Proses sewa gampang banget, gak ribet. Harga juga bersaing dibanding rental lain. Pasti bakal sewa lagi kalau ke Bandung.'),
+(3, 'Taufik Ismail', 'Designer', 'user3.jpg', 4, 'Unit mobil terawat dengan baik. Admin fast response saat dihubungi malam hari. Terima kasih Rentiera!');
 
 -- --------------------------------------------------------
 
@@ -141,7 +141,12 @@ CREATE TABLE `tb_user` (
 --
 
 INSERT INTO `tb_user` (`id_user`, `nama`, `email`, `password`, `role`, `telp`, `alamat`) VALUES
-(1, 'admin', 'admin123@gmail.com', '0192023a7bbd73250516f069df18b500', 'admin', '123', 'admin123');
+(1, 'Maulana Yusuf Syawaludin', 'mysya005@gmail.com', '0192023a7bbd73250516f069df18b500', 'admin', '085632497232', 'Cimareme'),
+(2, 'Diki Wahyu Permana', 'dikwahyu@gmail.com', '0192023a7bbd73250516f069df18b500', 'admin', '085235861342', 'Buah Batu'),
+(3, 'Taufik Ismail', 'taufik15mail@gmail.com', '0192023a7bbd73250516f069df18b500', 'admin', '083546522875', 'Kiaracondong'),
+(4, 'Haura Shafa Asila', 'haura@gmail.com', '202cb962ac59075b964b07152d234b70', 'penyewa', '082377245941', 'Cimaung'),
+(5, 'Sherryl Azizah Aulia', 'sherylAz@gmail.com', '202cb962ac59075b964b07152d234b70', 'penyewa', '087259326758', 'Kopo'),
+(6, 'Adrian Fathurrahman', 'adriangantengstory@gmail.com', '202cb962ac59075b964b07152d234b70', 'penyewa', '08537842227', 'Cibaduyut');
 
 --
 -- Indexes for dumped tables
