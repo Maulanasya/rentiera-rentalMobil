@@ -155,7 +155,7 @@
                 </h2>
                 <p class="text-secondary lead mb-4" style="line-height: 1.8;">
                     Di Rentiera, kami tidak sekadar menyewakan mobil. Kami memberikan pengalaman berkendara yang aman,
-                    armada terawat, dan pelayanan sekelas VIP untuk setiap perjalanan Anda.
+                    mobil terawat, dan pelayanan sekelas VIP untuk setiap perjalanan Anda.
                 </p>
 
                 <div class="row g-3 mb-4">
