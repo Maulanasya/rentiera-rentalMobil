@@ -24,7 +24,7 @@ if ($aksi == 'tambah') {
                 VALUES ('$no_plat', '$merk', '$tipe', '$jenis', '$tahun', '$warna', '$harga', '$status', '$nama_file')";
         
         if (mysqli_query($koneksi, $sql)) {
-            echo "<script>alert('Data Mobil Berhasil Diupdate!'); window.location='../admin/index.php?page=kelola_mobil';</script>";
+            echo "<script>alert('Data Mobil Berhasil Ditambahkan!'); window.location='../admin/index.php?page=kelola_mobil';</script>";
         }
     }
 }
