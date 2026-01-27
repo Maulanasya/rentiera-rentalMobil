@@ -6,7 +6,7 @@ try {
     $pdo = new PDO("mysql:host=$host;dbname=$db;charset=utf8", $user, $pass);
     $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
-    // Query untuk mengambil data sewa lengkap dengan nama penyewa dan merk mobil
+    // Query untuk mengambil data sewa 
     $sql = "SELECT s.id_sewa, u.nama, m.merk, m.tipe, s.tanggal_mulai, s.tanggal_selesai, s.total_harga, p.status 
             FROM tb_sewa s
             JOIN tb_user u ON s.id_user = u.id_user
@@ -29,7 +29,7 @@ try {
 
     // Header Tabel
     $pdf->SetFont('Arial', 'B', 11);
-    $pdf->SetFillColor(230, 230, 230); // Warna abu-abu untuk header
+    $pdf->SetFillColor(230, 230, 230); 
     $pdf->Cell(10, 10, 'No', 1, 0, 'C', true);
     $pdf->Cell(45, 10, 'Nama Penyewa', 1, 0, 'C', true);
     $pdf->Cell(45, 10, 'Unit Armada', 1, 0, 'C', true);

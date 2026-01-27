@@ -6,15 +6,17 @@
         <p class="text-white-50 lead mb-4">Pantau ketersediaan, perbarui spesifikasi, atau tambahkan unit terbaru ke
             katalog.</p>
 
-        <button type="button" class="btn btn-warning rounded-pill px-5 py-3 fw-bold shadow-lg transform-hover"
-            data-bs-toggle="modal" data-bs-target="#modalTambahMobil">
-            <i class="bi bi-plus-lg me-2"></i> Tambah Mobil Baru
-        </button>
+        <div class="d-flex flex-wrap justify-content-center gap-3">
+            <button type="button" class="btn btn-warning rounded-pill px-5 py-3 fw-bold shadow-lg transform-hover"
+                data-bs-toggle="modal" data-bs-target="#modalTambahMobil">
+                <i class="bi bi-plus-lg me-2"></i> Tambah Mobil Baru
+            </button>
 
-        <a href="../config/laporan_mobil.php" target="_blank"
-            class="btn btn-outline-light rounded-pill px-5 py-3 fw-bold shadow-lg transform-hover">
-            <i class="bi bi-printer me-2"></i> Cetak Laporan
-        </a>
+            <a href="../config/laporan_mobil.php" target="_blank"
+                class="btn btn-outline-light rounded-pill px-5 py-3 fw-bold shadow-lg transform-hover">
+                <i class="bi bi-printer me-2"></i> Cetak Laporan
+            </a>
+        </div>
     </div>
 </div>
 

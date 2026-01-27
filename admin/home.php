@@ -192,7 +192,7 @@
     <div class="container">
 
         <div class="text-center mb-5" data-aos="fade-down">
-            <h3 class="fw-bold">Armada terbaru</h3>
+            <h3 class="fw-bold">Mobil terbaru kami</h3>
             <p class="text-secondary">kenyamanan tanpa ragu. Siap menemani perjalanan Anda kapan saja.</p>
         </div>
 
@@ -218,13 +218,13 @@
             $text_color = 'text-dark'; 
 
             if ($status_mobil == 'tersedia') {
-                $bg_color = 'bg-success'; // Hijau
+                $bg_color = 'bg-success'; 
                 $text_color = 'text-white';
             } elseif ($status_mobil == 'disewa') {
-                $bg_color = 'bg-warning'; // Kuning
+                $bg_color = 'bg-warning'; 
                 $text_color = 'text-dark';
             } elseif ($status_mobil == 'servis') {
-                $bg_color = 'bg-danger';  // Merah
+                $bg_color = 'bg-danger';  
                 $text_color = 'text-white';
             }
             ?>
@@ -439,9 +439,6 @@
             <a href="https://wa.me/6285659626847"
                 class="btn btn-dark rounded-pill px-5 py-3 fw-bold shadow-lg transform-hover">
                 <i class="bi bi-whatsapp me-2"></i> Hubungi via WhatsApp
-            </a>
-            <a href="index.php?page=registrasi" class="btn btn-outline-dark rounded-pill px-5 py-3 fw-bold">
-                Daftar Akun
             </a>
         </div>
     </div>

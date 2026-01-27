@@ -1,9 +1,8 @@
 <?php
-// PERBAIKAN 1: Logika cerdas mencari file koneksi agar tidak error di HP
 if (file_exists('config/koneksi.php')) {
-    include 'config/koneksi.php'; // Jika dipanggil dari index utama
+    include 'config/koneksi.php'; 
 } else {
-    include '../config/koneksi.php'; // Jika dipanggil dari folder pages/
+    include '../config/koneksi.php';
 }
 
 if (isset($_POST['kirim_pesan'])) {

@@ -192,7 +192,7 @@
     <div class="container">
 
         <div class="text-center mb-5" data-aos="fade-down">
-            <h3 class="fw-bold">Armada Kami</h3>
+            <h3 class="fw-bold">Mobil terbaru kami</h3>
             <p class="text-secondary">Pilihan terbaik untuk kenyamanan perjalanan Anda</p>
         </div>
 
@@ -368,7 +368,6 @@
 
         <div class="row g-4">
             <?php
-            // Pastikan query testimoni berjalan
             $query_testi = mysqli_query($koneksi, "SELECT * FROM tb_testimoni LIMIT 3");
             while ($row = mysqli_fetch_assoc($query_testi)) { 
             ?>
@@ -417,9 +416,6 @@
             <a href="https://wa.me/6285659626847"
                 class="btn btn-dark rounded-pill px-5 py-3 fw-bold shadow-lg transform-hover">
                 <i class="bi bi-whatsapp me-2"></i> Hubungi via WhatsApp
-            </a>
-            <a href="index.php?page=registrasi" class="btn btn-outline-dark rounded-pill px-5 py-3 fw-bold">
-                Daftar Akun
             </a>
         </div>
     </div>

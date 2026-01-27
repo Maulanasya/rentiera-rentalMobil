@@ -68,7 +68,6 @@ if (isset($_POST['kirim'])){
     align-items: center;
 ">
 
-        <!-- Overlay -->
         <div style="
         position: absolute;
         inset: 0;
