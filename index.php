@@ -90,9 +90,6 @@ if (isset($_GET['page'])) {
 }
 ?>
 
-
-
-
             <!-- footer -->
             <?php 
     $halaman_sekarang = isset($_GET['page']) ? $_GET['page'] : 'home';
