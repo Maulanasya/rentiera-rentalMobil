@@ -192,7 +192,7 @@
     <div class="container">
 
         <div class="text-center mb-5" data-aos="fade-down">
-            <h3 class="fw-bold">Armada terbaru</h3>
+            <h3 class="fw-bold">Mobil terbaru kami</h3>
             <p class="text-secondary">kenyamanan tanpa ragu. Siap menemani perjalanan Anda kapan saja.</p>
         </div>
 
