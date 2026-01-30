@@ -37,7 +37,8 @@
                 <div class="d-flex gap-3">
                     <a href="index.php?page=registrasi" class="btn btn-warning px-3 py-2 fw-bold shadow"
                         style="border-radius: 50px;">Mulai Sekarang</a>
-                    <a href="#" class="btn btn-outline-light px-3 py-2 fw-bold" style="border-radius: 50px;">Pelajari
+                    <a href="index.php?page=about" class="btn btn-outline-light px-3 py-2 fw-bold"
+                        style="border-radius: 50px;">Pelajari
                         Lebih Lanjut</a>
                 </div>
 
@@ -179,7 +180,8 @@
                     </div>
                 </div>
 
-                <a href="#" class="btn btn-warning rounded-pill px-4 py-3 fw-bold shadow-sm transition-btn">
+                <a href="index.php?page=about"
+                    class="btn btn-warning rounded-pill px-4 py-3 fw-bold shadow-sm transition-btn">
                     Lihat Selengkapnya <i class="bi bi-arrow-right ms-2"></i>
                 </a>
             </div>
