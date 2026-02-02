@@ -211,7 +211,7 @@
     <div class="modal-dialog modal-lg modal-dialog-centered">
         <div class="modal-content rounded-4 border-0 shadow">
             <div class="modal-header border-0 p-4 pb-0">
-                <h5 class="fw-bold">Input Armada Baru</h5>
+                <h5 class="fw-bold">Input Mobil Baru</h5>
                 <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
             </div>
             <form action="../config/aksi_mobil.php?aksi=tambah" method="POST" enctype="multipart/form-data">
